@@ -85,13 +85,13 @@ public class VirtualPet {
       //
       // Print the appropriate ending message.
       if (happiness >= 15) {
-         System.out.println("Mr Pickles is too happy");
+         System.out.println("YOU WIN!");
       } else if (hunger >= 10) {
-         System.out.println("Mr pickles got sent to the farm");
+         System.out.println("Your pet ran away looking for food!");
       } else if (energy <= 0 ) {
-          System.out.println("Mr pickles got too tired");
+          System.out.println("Let's just say that your parents took your pet to a farm. The less you know the better.");
       } else if (choice == 5) {
-            System.out.println("game over>.");
+            System.out.println("Goodbye!");
       }
       
       input.close();
